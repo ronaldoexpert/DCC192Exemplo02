@@ -14,6 +14,6 @@
         <p>Request URI: <%= request.getRequestURI()%></p>
         <p>Servlet Path: <%= request.getServletPath()%></p>
         <p>Query String: <%= request.getQueryString()%></p>
-        <p>Nome: <%= request.getParameter("nome") %></p>
+        <p>Nome: <%= nome %></p> 
     </body>
 </html>

@@ -21,7 +21,7 @@
     <body>
         <h1>Exemplo 02b!</h1>
 
-        <p <%=(n % 2 == 0) ? "class = 'par'" : "class = 'impar'"%>>
+        <p <%=(n % 2 == 0)  ? "class = 'par'" : "class = 'impar'"%>>
             <%=(n % 2 == 0) ? (n + " é par!") : (n + " é impar!")%></p>
     </body>
 </html>

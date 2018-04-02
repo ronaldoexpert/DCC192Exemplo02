@@ -15,9 +15,9 @@
         </ul>
         
         <table border = 1>
-            <% for(int L = 0; L < 10; L++) { %>
+            <% for(int L = 0; L < 8; L++) { %>
             <tr>
-                <% for(int C = 0; C < 10; C++) { %>
+                <% for(int C = 0; C < 8; C++) { %>
                     <td><%=L+"x"+C%></td>
                 <% } %>
             </tr>

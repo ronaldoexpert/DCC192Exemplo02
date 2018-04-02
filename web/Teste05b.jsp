@@ -10,10 +10,10 @@
     </head>
     <body>
         <h1>Exemplo 05!</h1>
-        <p>Request URL: <%= request.getRequestURL()%></p>
-        <p>Request URI: <%= request.getRequestURI()%></p>
-        <p>Servlet Path: <%= request.getServletPath()%></p>
-        <p>Query String: <%= request.getQueryString()%></p>
-        <p>Nome: <%= request.getParameter("nome") %></p>
+        <form action="Teste05.jsp" method="Post">
+            <input type="text" name="nome" value="" placeholder="Nome Completo"/>
+            <input type="submit" />
+            <input type="reset" />
+        </form>
     </body>
 </html>
